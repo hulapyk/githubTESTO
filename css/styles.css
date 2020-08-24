@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endiv{
+    width: 50vw;
+    height: 50vh;
+    /*background-color: pink;*/
+    clip-path: polygon(19% 66%, 16% 55%, 26% 54%, 26% 76%, 7% 76%, 6% 26%, 35% 24%, 34% 65%, 40% 64%, 40% 22%, 51% 22%, 51% 30%, 45% 32%, 45% 44%, 51% 43%, 51% 53%, 46% 53%, 46% 65%, 54% 68%, 54% 23%, 60% 22%, 66% 52%, 66% 22%, 72% 22%, 71% 76%, 67% 75%, 60% 46%, 60% 76%, 40% 76%, 29% 76%, 29% 68%, 29% 35%, 12% 35%, 13% 67%);
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    animation: rainbow 18s ease infinite;
+    position: absolute;
+}
+
+@keyframes rainbow {
+    0%{background-position:0 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0 82%}
+}
